@@ -19,11 +19,6 @@ function drawBoard(size) {
 }
 
 
-
-function changeColor() {
-
-}
-
 function reset() {
     const board = document.querySelector(".canvas");
     const cells = board.querySelectorAll("div");
