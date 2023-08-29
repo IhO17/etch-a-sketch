@@ -1,13 +1,38 @@
-* {
-    border: 1px solid red;
-}
+
 
 .title {
-    color: blue;
+    color: rgb(67, 133, 239);
+    font-size: xx-large;
+    font-family:'Gill Sans', 'Gill Sans MT', serif;
+    margin: -10px;
 }
 
 .canvas {
     display: grid;
     width: 800px;
-    height: 600px;
+    height: 800px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(180, 237, 244);
+}
+
+button {
+    font-size: 30px;
+    margin: 10px 5px;
+    color: rgb(30, 146, 208);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    padding: 10px;
+    border-radius: 5px;
+    border: 5px solid rgb(10, 246, 234);
 }
