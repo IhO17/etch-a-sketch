@@ -24,6 +24,12 @@ function changeColor() {
 
 }
 
+function reset() {
+    const board = document.querySelector(".canvas");
+    const cells = board.querySelectorAll("div");
+    cells.forEach(div => div.style.backgroundColor = "white");
+}
+
 function changeSize() {
     let x = prompt("Insert size:", placeholder="value between 2-100");
     
